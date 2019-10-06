@@ -15,8 +15,12 @@ After you exchange your cards, the game will display your final hand and calcula
 
 _____________________
 Design choice:<br />
-I chose Java as the language of choice because it offers good class abstraction. I split the game into individual components: cards, deck, player, and the video poker game itself. Implementing the Card class as Comparable is important for the game to sort cards. The deck was implemented with an array of 52 cards, which allowed for easy lookup access. The player's hand was a dynamic ArrayList of Cards as cards in the hand were constantly being exchanged. The play() method in VideoPoker.java is the poker game itself. It is implemented with a while loop, and every iteration of the while loop is one round of Video Poker.
+I chose Java as the language of choice because it offers good class abstraction. I split the game into individual components: cards, deck, player, and the video poker game itself. 
+
+Implementing the Card class as Comparable is important for the game to sort cards. <br />
+The deck was implemented with an array of 52 cards, which allowed for easy lookup access. <br />
+The player's hand was a dynamic ArrayList of Cards as cards in the hand were constantly being exchanged. <br />
+The play() method in VideoPoker.java is the poker game itself. It is implemented with a while loop, and every iteration of the while loop is one round of Video Poker.<br />
 
 Given more time, I would have added more code to check for illegal input (ex: inputting a character when an int argument is demanded, or betting more money than the player has). I would have also made test cases to test custom-made poker hands, and refactored the code in the checkHand() method in VideoPoker.java to make the method and the methods below it more readable.<br />
- 
 Thank you for playing!
