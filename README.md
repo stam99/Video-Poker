@@ -23,4 +23,5 @@ The player's hand was a dynamic ArrayList of Cards as cards in the hand were con
 The play() method in VideoPoker.java is the poker game itself. It is implemented with a while loop, and every iteration of the while loop is one round of Video Poker.<br />
 
 Given more time, I would have added more code to check for illegal input (ex: inputting a character when an int argument is demanded, or betting more money than the player has). I would have also made test cases to test custom-made poker hands, and refactored the code in the checkHand() method in VideoPoker.java to make the method and the methods below it more readable.<br />
+<br />
 Thank you for playing!
