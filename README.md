@@ -2,8 +2,8 @@ Video Poker!
 _____________________
 Instructions for running code in terminal:
 
-javac VideoPokerTester.java
-java VideoPokerTester
+javac VideoPokerTester.java . 
+java VideoPokerTester . 
 
 _____________________
 Rules:
